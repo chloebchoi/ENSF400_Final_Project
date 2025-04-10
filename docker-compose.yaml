@@ -7,7 +7,7 @@ services:
       context: ./
 
   jenkins:
-    image: jenkins/jenkins:lts-jdk17
+    image: jenkins/jenkins:lts
     ports:
       - "8081:8080"
     volumes:
