@@ -276,6 +276,7 @@ sonarqube {
         property "sonar.coverage.jacoco.xmlReportPaths", "build/jacoco/jacoco.xml"
         property "sonar.login", "admin"
         property "sonar.password", "password"
+        property "sonar.host.url", "https://laughing-rotary-phone-9r9ww6qr464f7w66-9000.app.github.dev/projects/create"
     }
 }
 
