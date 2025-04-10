@@ -1,5 +1,5 @@
 # Use Gradle with JDK 11 as the base image
-FROM gradle:7.6.1-jdk11
+FROM gradle:7.6-jdk17
 
 # Set the working directory inside the container
 WORKDIR /app
