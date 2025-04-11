@@ -254,8 +254,9 @@ generateCucumberReports.dependsOn(cucumber)
 jacocoTestReport {
     executionData(fileTree(dir: "$buildDir/jacoco", include: '*.exec'))
     reports {
-        xml.enabled true
-        csv.enabled false
+        xml.required = true
+        csv.required = false
+        html.required = true
         xml.destination file("${buildDir}/jacoco/jacoco.xml")
         html.destination file("${buildDir}/reports/jacoco")
     }
